@@ -1,0 +1,273 @@
+body{
+    font-family: 'Baloo Da 2', cursive;
+}
+
+.cabeçalho{
+    position: relative;
+    width: 700px;
+    height: 55px;
+    margin: 0 30px;
+}
+
+header{
+    background: rgb(255, 254, 254);
+    padding: 0 0;
+}
+
+nav{
+    position: absolute;
+    top: 1px;
+    right: 0;
+}
+
+nav a:hover{
+    text-decoration: underline;
+
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000; 
+    font-size: 14px;
+    /*tirar a linha embaixo da letra*/
+    text-decoration: none;
+    
+}
+nav ul{
+    margin: 18px 0 0 0;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 16px;
+}
+.logo{
+    width: 13%;
+}
+.foto{
+    width: 100%;
+
+}
+.titulo-comunicado, .titulo-familia, .titulo-conecte-se, .familia-range, .familia-discovery, .familia-defender,
+.imagensDeVeiculos{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+.comunicado{
+    padding: 3em 0;
+    background: #e9ecec;
+    margin: 0 auto;
+    width: 100%;
+}
+.secFamilia, .secFamiliaDisc, .secFamiliaDef{
+    padding: 3em 0;
+    background: rgb(220, 229, 230);
+    margin: 0 auto;
+    width: 100%;
+}
+.imagensDeVeiculos{
+    padding: 3em 0;
+    background: rgb(255, 255, 255);
+    margin: 0 auto;
+    width: 100%;
+}
+
+.conecte-se{
+    padding: 3em 0;
+    background: #fff;
+    margin: 0 auto;
+    width: 100%;    
+}
+
+#texto0, #texto1, #texto2, #texto3, #texto4{
+    text-align: center;
+    color: rgb(87, 87, 87);
+}
+.classDeTexto{
+    position: center;
+    width: 700px;
+    margin: 0 auto;
+}
+.carros{
+    width: 100%;
+}
+.enviar, .enviar2, .enviar3{
+    margin: 40px 0 50px 0;
+    padding: 10px 0;
+    text-align: center;
+    height: 40px;
+    width: 160px;
+    background: #000000;
+    color: white;
+    font-size: 11px;
+    cursor: pointer;
+    transition: 0.8s all;
+    border-width: 1px;
+    border-color:black;   
+}
+.enviar:hover, .enviar2:hover, .enviar3:hover, .enviar4:hover{
+    background: white;
+    color: black;
+}
+#btn{
+    text-align: center;
+}
+.familiaCarros,.familiaCarros2{
+    width: 100%;
+}
+.imagemContainer{
+    height: 60px;
+    width: 30px;
+}
+.carro1{
+    height: 30px;
+    width: 30px;
+}
+.container{
+    height: 300px;
+    position: relative;
+    width: 1220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.container .card{
+    position:  relative;
+    max-width: 300px;
+    height: 215px;
+    background: white;
+    margin: 30px 10px;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+    transition: 0.3s ease-in-out;
+}
+
+.container .card:hover{
+
+    height: 260px;
+}
+.container .card .imagemContainer{
+    position: relative;
+    width: 260px;
+    height: 195px;
+    top: -60px;
+    left: 4px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+.container .card .imagemContainer .fotoCarro{
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+
+.container .card .conteudo{
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.2s ease-in-out;
+}
+
+
+.container .card:hover .conteudo{
+
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.3s;
+}
+
+.copy{
+    color: rgba(0, 0, 0, 0.521);
+    font-size: 13px;
+    margin: 5px 0;
+}
+.rodape{
+    padding: 10px 0;
+    height: 20px;
+    text-align: center;
+    background: rgb(173, 173, 173);
+}
+#texto5{
+    font-size: 14px;
+    color: rgb(148, 148, 148);
+    margin: 0 0 50px;
+
+}
+.enviar4{
+    margin: 40px 0 10px 0;
+    padding: 10px 0;
+    text-align: center;
+    height: 40px;
+    width: 160px;
+    background: #000000;
+    color: white;
+    font-size: 11px;
+    cursor: pointer;
+    transition: 0.8s all;
+    border-width: 1px;
+    border-color:black;   
+}
+.cont{
+    background: #4A4F54;
+    width: 100%;
+    padding: 3em 0;
+    margin: 0 auto;
+    height: 350px;
+}
+#juntese{
+    color: rgb(141, 141, 141);
+}
+.branco{
+    padding: 1.2em 0;
+    height: 20px;
+    text-align: center;
+    background: #fff;
+}
+.itens{
+    text-align: center;
+    width: 100%;
+}
+.topicos{
+    position: relative;
+    float: left;
+    width: 21%;
+}
+.itens .topicos{
+    display: inline-block;
+    float: none;
+    padding: 0 10px 30px;
+    vertical-align: top;
+}
+.img{
+    width: 250px;
+    padding: 0 0 33px;
+}
+.titulosImg{
+    text-align: left;
+    color: #E4E8E8;
+    font-weight: 550;
+    margin: 0 0 22px;
+}
+#ultimoConteudo{
+    vertical-align: baseline;
+    text-align: left;
+    color: #E4E8E8;
+    font-size: 14px;
+}
+.tituloDoConteudo{
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0 0 7px;
+}
