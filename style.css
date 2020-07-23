@@ -7,11 +7,16 @@ body{
     width: 700px;
     height: 55px;
     margin: 0 30px;
+    
 }
 
 header{
     background: rgb(255, 254, 254);
     padding: 0 0;
+    border: solid;
+    border-color: #d3d3d3;
+    border-width: 2px;
+    
 }
 
 nav{
@@ -127,7 +132,7 @@ nav li{
 .container{
     height: 300px;
     position: relative;
-    width: 1220px;
+    width: 1350px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -270,4 +275,10 @@ nav li{
     font-size: 18px;
     font-weight: 600;
     padding: 0 0 7px;
+}
+.tituloMonte{
+    margin: 10px 0;
+    background-image:url(intro.jpg);
+    height: 300px;
+    width: 100%;
 }
