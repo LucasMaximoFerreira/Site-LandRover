@@ -277,8 +277,54 @@ nav li{
     padding: 0 0 7px;
 }
 .tituloMonte{
-    margin: 10px 0;
+    margin: 40px 0;
     background-image:url(intro.jpg);
-    height: 300px;
-    width: 100%;
+    background-size: 100%;
+    height: 240px;
+    text-align: center;
+}
+.textoCentral{
+    text-align: center;
+    margin: 70px 400px;
+    position: absolute;
+    background: #E4E8E8;
+    padding: 13px 20px 17px;
+}
+.tituloPagina2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+    color: black;
+
+}
+.subtitulo{
+    padding: 7px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.definicoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.secaoDeCarros{
+    padding: 50px 0;
+    width: 1000px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.tiImg{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 0;
+
+}
+.textPag2{
+    color: rgb(100, 100, 100);
+    padding: 4px 0 90px;
+}
+.subtituloPagina2{
+    width: 300px;
 }
