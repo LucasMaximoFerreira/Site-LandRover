@@ -2,27 +2,18 @@ body{
     font-family: 'Baloo Da 2', cursive;
 }
 
-.cabeçalho{
-    position: relative;
-    width: 700px;
-    height: 55px;
-    margin: 0 30px;
-    
-}
-
 header{
     background: rgb(255, 254, 254);
     padding: 0 0;
+}
+
+nav{
+    width: 100%;
+    height: 60px;
     border: solid;
     border-color: #d3d3d3;
     border-width: 2px;
     
-}
-
-nav{
-    position: absolute;
-    top: 1px;
-    right: 0;
 }
 
 nav a:hover{
@@ -36,7 +27,12 @@ nav a{
     font-size: 14px;
     /*tirar a linha embaixo da letra*/
     text-decoration: none;
+    padding: 2px 14px 20px;
     
+    
+}
+nav img{
+    float: left;
 }
 nav ul{
     margin: 18px 0 0 0;
@@ -45,8 +41,57 @@ nav li{
     display: inline;
     margin: 0 0 0 16px;
 }
+nav ul li{
+    float:left;
+    list-style: none;
+    position: relative;
+}
+
+
+nav ul li ul a{
+    display: block;
+    background: white;
+    font-size: 14px;
+    padding: 10px 8px;
+
+}
+
+nav ul li ul{
+    display: none;
+    position: absolute;
+    background: white;
+    padding: 10px;
+    border-radius: 0px 0px 4px 4px;
+
+}
+
+nav ul li:hover ul{
+    display: block;
+ 
+}
+
+nav ul li ul li{
+    width: 150px;
+    border-radius: 4px;
+}
+
+nav ul li ul li a{
+    padding: 8px 14px;
+
+}
+
+nav ul li ul li a:hover{
+    background: #f3f3f3;
+
+}
+
+
+
+
+
 .logo{
-    width: 13%;
+    padding: 7px 8px;
+    width: 6%;
 }
 .foto{
     width: 100%;
