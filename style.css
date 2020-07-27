@@ -363,6 +363,7 @@ nav ul li ul li a:hover{
     justify-content: space-between;
 }
 .tiImg{
+    width: 270px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     padding: 5px 0;
@@ -419,4 +420,77 @@ nav ul li ul li a:hover{
     width: 300px;
     color: rgb(100, 100, 100);
     padding: 16px 0 20px;
+}
+.finan{
+    margin: 40px 0 50px 0;
+    padding: 10px 0;
+    text-align: center;
+    height: 40px;
+    width: 190px;
+    background: #000000;
+    color: white;
+    font-size: 11px;
+    cursor: pointer;
+    transition: 0.8s all;
+    border-width: 1px;
+    border-color:black;   
+}
+.finan:hover{
+    background: white;
+    color: black;
+}
+#textoFinan{
+    text-align: center;
+    color: rgb(87, 87, 87);
+    padding: 10px 10px;
+}
+.classDeTextoFinan{
+    position: center;
+    width: 900px;
+    margin: 0 auto;
+}
+.FinanVideo{
+    padding: 30px 10px;
+    background: #E4E8E8;
+}
+.video{
+    width: 100%;
+    margin: 30px 10px;
+    text-align: center;
+}
+.creditoeacess{
+    width: 100%;
+}
+.a{
+    padding: 0px 0px 10px;
+    width: 470px;
+}
+.ab{
+    padding: 0px 0px 10px;
+    width: 470px;
+    height: 318px;
+}
+
+.b{
+    padding: 0px 0px 10px;
+    width: 320px;
+}
+
+.classDeTexto02{
+    position: center;
+    width: 1000px;
+    margin: 0 auto;
+}
+.soft{
+    padding: 30px 10px 0px;
+    margin: 30px 10px 0px;
+    background: #E4E8E8;
+}
+.notsoft{
+    padding: 30px 0px;
+    margin: 30px 0px 0px;
+}
+.menu02{
+    margin: 50px 0px 0px 0px;
+    width: 100%;
 }
