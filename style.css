@@ -494,3 +494,31 @@ nav ul li ul li a:hover{
     margin: 50px 0px 0px 0px;
     width: 100%;
 }
+.ultDiv{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 70px 400px;
+    background: #4a4f54;
+    color: white;
+}
+.cor{
+    background: #f3f3f3;
+}
+.tituloVisaoGeral3{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px 0px 20px 0px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+.color{
+    background: #e9ecec;
+}
+.divTexto{
+    background: #4a4f54;
+    padding: 70px 300px;
+    font-size: 32px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
